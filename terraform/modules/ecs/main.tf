@@ -59,7 +59,3 @@ resource "aws_ecs_service" "ecs_service" {
     assign_public_ip = false
   }
 }
-
-output "service_name" {
-  value = aws_ecs_service.this.name
-}
